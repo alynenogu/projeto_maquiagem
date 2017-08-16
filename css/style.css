@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: RGB(255,163,224);
+}
+
+div.logo{
+ 	text-align: left;
+	width: 60%;
+	
+}
+div.logo img{
+	width: 40%;
+	
+}
+nav.menu-principal{
+	float: left;
+}
+p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+}
+menu.menu-principal{
+	width: 50%;
+	background-color: aqua;
+}
+main.principal{
+	width: 95%;
+	height: 60%;
+    margin: 20px auto;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	background-color: aliceblue;
+	
+	
+	
+}
+main .destaques{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+main .primeira_sessao {
+	flex: 1;
+	width: 30%;
+	height: 40%;
+	padding: 15px;
+	max-width: 125px;
+	margin: 5px;
+	background-color: aqua;
+	
+}
+main .primeira_sessao img{
+	width: 60%;
+}
+main .segunda_sessao {
+	flex: 2;
+	width: 30%;
+	padding: 15px;
+	max-width: 125px;
+	margin: 5px;
+	
+	background-color: aquamarine;
+}
+main .segunda_sessao img{
+	width: 60%;
+}
+main .terceira_sessao{
+	flex: 3;
+	width: 30%;
+	padding: 15px;
+	max-width: 125px;
+	margin: 5px;
+	background-color: bisque;
+}
+main .terceira_sessao img{
+	width: 60%;
+}
+.principal{
+	text-align: center;
+}
+main .propaganda_1{
+	
+	display: inline-block;
+	width: 50%;
+	background-color: blueviolet;
+}
+main .propaganda_2{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	background-color: blueviolet;
+}
+.rodape{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.social{
+	position: absolute;
+	top: 11px;
+	right: 0;
+}
