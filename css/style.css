@@ -62,7 +62,7 @@ p{
 .menu ul ul li a{
 	background-color: #069;
 }
-main.principal{
+.principal{
 	width: 95%;
 	height: 60%;
     margin: 20px auto;
@@ -70,75 +70,41 @@ main.principal{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 10px;
-	background-color: aliceblue;
+	background-color: darkolivegreen;
 	
 	
 	
 }
-main .destaques{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
-main .primeira_sessao {
-	flex: 1;
-	width: 30%;
-	height: 40%;
-	padding: 15px;
-	max-width: 125px;
-	margin: 5px;
+.banner{
+	width: 95%;
+	height: 60%;
 	background-color: aqua;
+}
+.banner img{
+	width: 40%;
+	height: 20%;
 	
 }
-main .primeira_sessao img{
-	width: 60%;
-}
-main .segunda_sessao {
-	flex: 2;
-	width: 30%;
-	padding: 15px;
-	max-width: 125px;
-	margin: 5px;
-	
-	background-color: aquamarine;
-}
-main .segunda_sessao img{
-	width: 60%;
-}
-main .terceira_sessao{
-	flex: 3;
-	width: 30%;
-	padding: 15px;
-	max-width: 125px;
-	margin: 5px;
-	background-color: bisque;
-}
-main .terceira_sessao img{
-	width: 60%;
-}
-.principal{
-	text-align: center;
-}
-main .propaganda_1{
-	
-	display: inline-block;
-	width: 50%;
-	background-color: blueviolet;
-}
-main .propaganda_2{
-	float: right;
-	display: inline-block;
-	width: 50%;
-	background-color: blueviolet;
-}
-.rodape{
+.destaques{
+	width: 95%;
+	height: 90%;
+	background-color: black;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
-.social{
-	position: absolute;
-	top: 11px;
-	right: 0;
+.destaquesdasemana {
+	width: 50%;
+	height: 50%;
+	background-color: chartreuse;
+	flex: 1;
+	
+}
+.listademaisprocurados{
+		width: 50%;
+		height: 50%;
+		background-color: chartreuse;
+		flex: 2;
+}
+footer{
+	background-color: blueviolet;
 }
