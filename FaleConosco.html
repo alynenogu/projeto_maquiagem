@@ -30,23 +30,33 @@
 				<h1> formulário para contato</h1>
 				<p> Entre em contato para tirar dúvidas, critícas, sugestões e várias outras coisas</p>
 					<form name="faleconosco">
-					<label>nome:</label> <input type="text" name="nome">	
-					<br />
-					<label>e-mail: </label><input type="email" name="email">
-					<br />
-					<label>assunto:</label> <select name="assunto">
+					<div class="campos">
+				<label for="name">nome:</label> 
+				<input type="text" name="nome">	
+					</div>
+					
+					<div class="campos">
+					<label for="email">e-mail: </label>
+					<input type="email" name="email">
+					</div>
+					
+					<div class="campos">
+					<label for="assunto">assunto:</label> <select name="assunto">
 						<option> Fale o assunto</option>
 						<option> Dúvida </option>
 						<option> Sugestão </option>
 						<option> Critícas</option>
 						<option> Elogios </option>
 					</select>
-					<br />
-					<label>mensagem:</label><textarea name="mensagem" maxlength="300">
+					</div>
+					<div class="campos">
+					<label for="mensagem">mensagem:</label><textarea name="mensagem" maxlength="300">
 						
 					</textarea>	
-					<br />
+					</div>
+					<div class="button">
 					<button type="submit" name="enviar">Enviar</button>
+					</div>
 					</form>
 				</main>
 		
